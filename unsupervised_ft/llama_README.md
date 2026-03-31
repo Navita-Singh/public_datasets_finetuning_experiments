@@ -38,10 +38,10 @@ trainers due to:
 
 This project solves these issues by:
 
-✔ Fully manual tokenization\
-✔ Explicit label construction\
-✔ Fixed sequence length padding\
-✔ Removal of ambiguous trainer preprocessing
+- Fully manual tokenization\
+- Explicit label construction\
+- Fixed sequence length padding\
+- Removal of ambiguous trainer preprocessing
 
 This ensures that input IDs and label tensors always match exactly,
 preventing cross-entropy shape mismatches during training.
