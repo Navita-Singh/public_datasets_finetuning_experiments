@@ -46,7 +46,7 @@ from langsmith import traceable
 # ==========================================
 
 os.environ["LANGSMITH_TRACING"] = "true"
-os.environ["LANGSMITH_API_KEY"] = "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"
+os.environ["LANGSMITH_API_KEY"] = ""
 #os.environ["LANGSMITH_PROJECT"] = "fea-agent-langgraph"  # Optional project grouping
 os.environ["LANGSMITH_PROJECT"] = "ns_observability"  # Match your workspace name
 os.environ["LANGSMITH_ENVIRONMENT"] = "production"    # Match your UI filter
